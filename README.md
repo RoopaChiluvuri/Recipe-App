@@ -2,6 +2,10 @@
 
 Creted Virtual environment
 
+
+#To activate the environment 
+$ source env/bin/activate
+
 installed Django 
 
 
