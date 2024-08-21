@@ -23,6 +23,14 @@ created HTML TEMPLATES
 and added Bootstrap
 
 
+created a super user
+and othe test user where
+username : test
+password: test@123
+
+
+
+
 
 
 
