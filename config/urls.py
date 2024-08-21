@@ -18,5 +18,9 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('recipes/', include('recipes.urls')),
+    path('', include('recipes.urls')),
+
+    # This line makes the url like 8000/recipes to see the home page
+    # path('recipes/', include('recipes.urls')),
+
 ]
