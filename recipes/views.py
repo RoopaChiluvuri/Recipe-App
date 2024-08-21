@@ -2,21 +2,21 @@ from django.shortcuts import render, HttpResponse
 
 recipes = [
     {
-        'author': 'Dom',
+        'author': 'Roopa',
         'title': 'Paneer Butter Masala',
         'directions': 'combine all the ingredients',
         'date_posted': 'August 21, 2024'
     },
 
     {
-        'author': 'Dom',
+        'author': 'Roopa',
         'title': 'Veg Manchuria',
         'directions': 'combine all the ingredients',
         'date_posted': 'August 21, 2024'
     },
 
     {
-        'author': 'Dom',
+        'author': 'Roopa',
         'title': 'Kofta Curry',
         'directions': 'combine all the ingredients',
         'date_posted': 'August 21, 2024'
