@@ -29,6 +29,10 @@ username : test
 password: test@123
 
 
+created RECIPES IN Django Admin
+
+
+
 
 
 
