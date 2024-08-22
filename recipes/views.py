@@ -1,28 +1,7 @@
 from django.shortcuts import render, HttpResponse
+from django.views.generic import ListView, DetailView
+
 from . import models
-
-recipes = [
-    {
-        'author': 'Roopa',
-        'title': 'Paneer Butter Masala',
-        'directions': 'combine all the ingredients',
-        'date_posted': 'August 21, 2024'
-    },
-
-    {
-        'author': 'Roopa',
-        'title': 'Veg Manchuria',
-        'directions': 'combine all the ingredients',
-        'date_posted': 'August 21, 2024'
-    },
-
-    {
-        'author': 'Roopa',
-        'title': 'Kofta Curry',
-        'directions': 'combine all the ingredients',
-        'date_posted': 'August 21, 2024'
-    }
-]
 
 
 # Create your views here.
@@ -32,6 +11,16 @@ def home(request):
         'recipes': recipes
     }
     return render(request, "recipes/home.html", context)
+
+
+class RecipeListView(ListView):
+    model = models.Recipe
+    template_name = "recipes/home.html"
+    context_object_name = 'recipes'
+
+
+class RecipeDetailView(DetailView):
+    model = models.Recipe
 
 
 def about(request):
