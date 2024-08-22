@@ -1,13 +1,13 @@
 from django.shortcuts import render, redirect
-from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
+from . import forms
 
 # Create your views here.
 
 
 def register(request):
     if request.method == "POST":
-        form = UserCreationForm(request.POST)
+        form = forms.UserRegisterForm(request.POST)
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
@@ -15,5 +15,5 @@ def register(request):
                 request, f"{username}, you're account has been created!")
             return redirect('recipes-home')
     else:
-        form = UserCreationForm()
+        form = forms.UserRegisterForm()
     return render(request, 'users/register.html', {'form': form})
