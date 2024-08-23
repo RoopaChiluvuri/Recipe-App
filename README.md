@@ -3,9 +3,9 @@
 <p>A Django-based recipe management application that supports creating, reading, updating, and deleting (CRUD) recipes. The app includes user authentication, custom pages, Bootstrap integration for styling, and sample data.</p>
 
 <h2>Features</h2>
-User Authentication: Register, login, and logout functionalities.
-CRUD Operations: Create, read, update, and delete recipes./n
-Custom Pages: Home and About pages with titles and sample data.
+User Authentication: Register, login, and logout functionalities.<br/>
+CRUD Operations: Create, read, update, and delete recipes.<br/>
+Custom Pages: Home and About pages with titles and sample data.<br/>
 - Admin Interface: Manage recipes and users through Django Admin.
 - Responsive Design: Styled with Bootstrap for a responsive and modern UI.
 - Sample Data: Pre-populated with sample recipes for demonstration.
@@ -18,7 +18,7 @@ Version Control: Git
 Environment: Python 3.x
 
 
-<h2>Steps</h2>
+<h2>Steps to run the project in local</h2>
 
 <h4>Clone the Repository:</h4>
 $ git clone https://github.com/RoopaChiluvuri/Recipe-App.git
@@ -44,7 +44,7 @@ $ python3 -m venv env
 
 
 <h4>Access the Application:</h4>
-Open your browser and navigate to http://localhost:8000 to view the app.
+Open your browser and navigate to http://localhost:8000/ to view the app.
 
 Access Django Admin at http://localhost:8000/admin/ using the superuser credentials.
 
