@@ -5,7 +5,7 @@
 <h2>Features</h2>
 
 <h5>User Authentication:Register, login, and logout functionalities.</h5><br/>
-<h5>CRUD Operations:</h5> Create, read, update, and delete recipes.<br/>
+<h5>CRUD Operations:</h5> Create, read, update, and delete recipes.
 <h5>Custom Pages:</h5> Home and About pages with titles and sample data.<br/>
 <h5>Admin Interface:</h5> Manage recipes and users through Django Admin.<br/>
 <h5>Responsive Design:</h5> Styled with Bootstrap for a responsive and modern UI.<br/>
