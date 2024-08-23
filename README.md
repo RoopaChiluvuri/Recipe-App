@@ -4,21 +4,20 @@
 
 <h2>Features</h2>
 
-<h5>User Authentication:Register, login, and logout functionalities.</h5><br/>
-<h5>CRUD Operations:</h5> Create, read, update, and delete recipes.
-<h5>Custom Pages:</h5> Home and About pages with titles and sample data.<br/>
-<h5>Admin Interface:</h5> Manage recipes and users through Django Admin.<br/>
-<h5>Responsive Design:</h5> Styled with Bootstrap for a responsive and modern UI.<br/>
-<h5>Sample Data:</h5> Pre-populated with sample recipes for demonstration.<br/>
+User Authentication:  Register, login, and logout functionalities.
+CRUD Operations:  Create, read, update, and delete recipes.
+Custom Pages:  Home and About pages with titles and sample data.
+Admin Interface:   Manage recipes and users through Django Admin.
+Responsive Design:  Styled with Bootstrap for a responsive and modern UI.
+Sample Data:  Pre-populated with sample recipes for demonstration.
 
 <h2>Technologies Used</h2>
 
-Backend: Django
-Database: SQLite (default; can be switched to PostgreSQL, MySQL, etc.)
-Frontend: HTML, CSS, Bootstrap, Django Templates
-Version Control: Git
-Environment: Python 3.x
-
+Backend: Django <br/>
+Database: SQLite (default; can be switched to PostgreSQL, MySQL, etc.) <br/>
+Frontend: HTML, CSS, Bootstrap, Django Templates <br/>
+Version Control: Git <br/>
+Environment: Python 3.x <br/>
 
 <h2>Steps to run the project in local</h2>
 
