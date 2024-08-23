@@ -12,4 +12,10 @@
         <h6 class="card-subtitle mb-2 text-muted">{{ object.updated_at|date:"F d, Y" }}</h6>
     </div>
 </div>
+{% if object.author == user or user.is_staff %}
+<div class="col-4">
+    <a href="{% url 'recipes-update' object.id %}" class="btn btn-outline-info">Update</a>
+    <a href="{% url 'recipes-delete' object.id %}" class="btn btn-outline-danger">Delete</a>
+</div>
+{% endif %}
 {% endblock content %}
