@@ -1,15 +1,15 @@
 <h1>Recipe App</h1>
 
-<p>A Django-based recipe management application that supports creating, reading, updating, and deleting (CRUD) recipes. The app includes user authentication, custom pages, Bootstrap integration for styling, and sample data.</p>
+<p> A Django-based recipe management application that allows users to effortlessly create, read, update, and delete recipes. The app features secure user authentication, custom pages for an enhanced user experience, and Bootstrap integration for a responsive and modern design. It also includes sample data to facilitate initial testing and demonstration.</p>
 
 <h2>Features</h2>
 
-User Authentication:  Register, login, and logout functionalities.
-CRUD Operations:  Create, read, update, and delete recipes.
-Custom Pages:  Home and About pages with titles and sample data.
-Admin Interface:   Manage recipes and users through Django Admin.
-Responsive Design:  Styled with Bootstrap for a responsive and modern UI.
-Sample Data:  Pre-populated with sample recipes for demonstration.
+User Authentication:  Register, login, and logout functionalities.<br/>
+CRUD Operations:  Create, read, update, and delete recipes. <br/>
+Custom Pages:  Home and About pages with titles and sample data.<br/>
+Admin Interface:   Manage recipes and users through Django Admin.<br/>
+Responsive Design:  Styled with Bootstrap for a responsive and modern UI.<br/>
+Sample Data:  Pre-populated with sample recipes for demonstration.<br/>
 
 <h2>Technologies Used</h2>
 
