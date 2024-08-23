@@ -3,7 +3,7 @@
 <p>A Django-based recipe management application that supports creating, reading, updating, and deleting (CRUD) recipes. The app includes user authentication, custom pages, Bootstrap integration for styling, and sample data.</p>
 
 <h2>Features</h2>
-User Authentication: Register, login, and logout functionalities./n
+User Authentication: Register, login, and logout functionalities.\n
 CRUD Operations: Create, read, update, and delete recipes./n
 Custom Pages: Home and About pages with titles and sample data.
 - Admin Interface: Manage recipes and users through Django Admin.
