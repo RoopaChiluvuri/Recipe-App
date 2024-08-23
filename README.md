@@ -20,40 +20,35 @@ Environment: Python 3.x
 
 <h2>Steps</h2>
 
-<h5>Clone the Repository:</h5>
+<h4>Clone the Repository:</h4>
 $ git clone https://github.com/RoopaChiluvuri/Recipe-App.git
 
-<h5>Navigate to the Project Directory:</h5>
+<h4>Navigate to the Project Directory:</h4>
 $ cd recipe-app
 
-<h5>Create a Virtual Environment:</h5>
+<h4>Create a Virtual Environment:</h4>
 $ python3 -m venv env
 
-<h5>Activate the Virtual Environment:</h5>
-<b>On macOS and Linux:</b> $ source env/bin/activate
-On Windows:
+<h4>Activate the Virtual Environment:</h4>
+<h4>On macOS and Linux:</h4> $ source env/bin/activate
+<h4>On Windows:</h4> $ env\Scripts\activate
 
-env\Scripts\activate
-Install Dependencies:
+<h4>Install Dependencies:</h4> $ pip install Django
 
-pip install Django
-Alternatively, if you have a requirements.txt file:
+<h4>Apply Migrations:</h4> $ python manage.py migrate
 
-pip install -r requirements.txt
-Apply Migrations:
+<h4>Create a Superuser:</h4> $ python manage.py createsuperuser
 
-python manage.py migrate
-Create a Superuser:
+<h4>Follow the prompts to set up the superuser credentials.</h4>
+<h4>Run the Development Server:</h4> $ python manage.py runserver
 
-python manage.py createsuperuser
-Follow the prompts to set up the superuser credentials.
-Run the Development Server:
-python manage.py runserver
-Access the Application:
+
+<h4>Access the Application:</h4>
 Open your browser and navigate to http://localhost:8000 to view the app.
-Access Django Admin at http://localhost:8000/admin/ using the superuser credentials.
-Usage
 
+Access Django Admin at http://localhost:8000/admin/ using the superuser credentials.
+
+<h5>Usage</h5>
 Home and About Pages:
 The application includes custom Home and About pages with titles and sample data.
 Navigate to the Home page at http://localhost:8000/ and About page at http://localhost:8000/about/.
