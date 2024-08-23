@@ -1,40 +1,19 @@
-# Recipe-App
+<h1>Recipe App</h1>
 
-Creted Virtual environment
+<p>A Django-based recipe management application that supports creating, reading, updating, and deleting (CRUD) recipes. The app includes user authentication, custom pages, Bootstrap integration for styling, and sample data.</p>
 
-
-#To activate the environment 
-$ source env/bin/activate
-
-installed Django 
-
-
-#Command for running the Server
-python manage.py runserver
-
-Created home and about pages
-
-included titiles and also added sample data 
-
-and then
-
-created HTML TEMPLATES
-
-and added Bootstrap
+Features:-
+User Authentication: Register, login, and logout functionalities.
+CRUD Operations: Create, read, update, and delete recipes.
+Custom Pages: Home and About pages with titles and sample data.
+Admin Interface: Manage recipes and users through Django Admin.
+Responsive Design: Styled with Bootstrap for a responsive and modern UI.
+Sample Data: Pre-populated with sample recipes for demonstration.
 
 
-created a super user
-and othe test user where
-username : test
-password: test@123
-
-
-created RECIPES IN Django Admin
-
-
-
-
-
-
-
-
+Technologies Used:-
+Backend: Django
+Database: SQLite (default; can be switched to PostgreSQL, MySQL, etc.)
+Frontend: HTML, CSS, Bootstrap, Django Templates
+Version Control: Git
+Environment: Python 3.x
