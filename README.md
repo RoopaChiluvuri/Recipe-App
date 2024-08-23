@@ -48,25 +48,3 @@ Open your browser and navigate to http://localhost:8000 to view the app.
 
 Access Django Admin at http://localhost:8000/admin/ using the superuser credentials.
 
-<h5>Usage</h5>
-Home and About Pages:
-The application includes custom Home and About pages with titles and sample data.
-Navigate to the Home page at http://localhost:8000/ and About page at http://localhost:8000/about/.
-User Accounts:
-Superuser: Created during installation for administrative tasks.
-Test User:
-Username: test
-Password: test@123
-Use these credentials to log in and test user-specific functionalities.
-Managing Recipes:
-Creating Recipes:
-Use the "Add Recipe" button to create new recipes.
-Viewing Recipes:
-The Home page lists all recipes. Click on a recipe to view its details.
-Editing and Deleting Recipes:
-From the recipe detail page, you can edit or delete the recipe.
-Django Admin:
-Access Django Admin at http://localhost:8000/admin/ to manage recipes and users directly.
-Templates and Styling:
-HTML templates are located in the templates/ directory.
-Bootstrap is integrated for responsive and aesthetic design.
