@@ -10,7 +10,7 @@ Custom Pages: Home and About pages with titles and sample data.
 - Responsive Design: Styled with Bootstrap for a responsive and modern UI.
 - Sample Data: Pre-populated with sample recipes for demonstration.
 
-<h2>Technologies Used:-</h2>
+<h2>Technologies Used</h2>
 Backend: Django
 Database: SQLite (default; can be switched to PostgreSQL, MySQL, etc.)
 Frontend: HTML, CSS, Bootstrap, Django Templates
@@ -20,19 +20,17 @@ Environment: Python 3.x
 
 <h2>Steps</h2>
 
-<h4>Clone the Repository:</h4>h4>
-git clone https://github.com/your-username/recipe-app.git
+<h5>Clone the Repository:</h5>
+$ git clone https://github.com/RoopaChiluvuri/Recipe-App.git
 
-Navigate to the Project Directory:
+<h5>Navigate to the Project Directory:</h5>
+$ cd recipe-app
 
-cd recipe-app
-Create a Virtual Environment:
+<h5>Create a Virtual Environment:</h5>
+$ python3 -m venv env
 
-python3 -m venv env
-Activate the Virtual Environment:
-On macOS and Linux:
-
-source env/bin/activate
+<h5>Activate the Virtual Environment:</h5>
+<b>On macOS and Linux:</b> $ source env/bin/activate
 On Windows:
 
 env\Scripts\activate
